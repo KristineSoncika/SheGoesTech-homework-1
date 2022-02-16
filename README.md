@@ -4,8 +4,8 @@ A simple responsive website for an imaginary second hand bookstore.
 
 ## Links
 
-- Solution URL [**here**]()
-- Live Site URL [**here**]()
+- Solution URL [**here**](https://github.com/KristineSoncika/SheGoesTech-homework-1)
+- Live Site URL [**here**](https://kristinesoncika.github.io/SheGoesTech-homework-1/)
 
 ## Built with
 
