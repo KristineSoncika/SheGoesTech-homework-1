@@ -1,0 +1,157 @@
+/* Global Styles */
+
+:root {
+  --cl-bg-dark: rgb(20, 11, 10);
+  --cl-bg-dark-op: rgba(20, 11, 10, 0.7);
+  --cl-bg-medium: rgb(226, 174, 119);
+  --cl-bg-light: rgb(238, 199, 148);
+  --cl-blue: rgb(65, 105, 224);
+  --cl-blue-op: rgb(65, 105, 224, 0.7);
+  --cl-font-headings: rgb(19, 19, 19);
+  --cl-font-text: rgb(53, 53, 53);
+  --cl-font-contrast-dark: rgb(158, 115, 69);
+  --cl-font-contrast-light: rgb(226, 174, 119);
+  --cl-white: rgb(255, 255, 255);
+  --font-main: "Titillium Web", sans-serif;
+  --font-special: "Dosis", sans-serif;
+  --transition: all 0.5s;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--cl-font-text);
+}
+
+h1,
+h2 {
+  font-family: var(--font-special);
+  color: var(--cl-font-headings);
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--cl-font-contrast-light);
+  opacity: 60%;
+}
+
+a {
+  color: var(--cl-font-contrast-light);
+}
+
+a:hover {
+  color: var(--cl-font-contrast-dark);
+}
+
+button {
+  border: none;
+}
+
+/* Components */
+
+.btn-custom {
+  background-color: var(--cl-bg-dark-op);
+  text-decoration: none;
+  color: var(--cl-white);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.btn-custom:hover {
+  transition: var(--transition);
+  background-color: var(--cl-blue-op);
+  color: var(--cl-white);
+}
+
+.bg-color-light {
+  background-color: var(--cl-bg-light);
+}
+
+.bg-color-dark {
+  background-color: var(--cl-bg-dark);
+  color: var(--cl-font-contrast-light);
+}
+
+/* Navbar */
+
+.logo {
+  width: 130px;
+}
+
+.cl-blue {
+  color: var(--cl-blue);
+}
+
+.navbar-custom {
+  background-color: var(--cl-bg-dark);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: var(--cl-font-contrast-light);
+}
+
+/* change the color of hovered links */
+.navbar-custom .nav-item:hover .nav-link {
+  color: var(--cl-font-contrast-dark);
+}
+
+/* change the color of toggler icon */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(226,174,119)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(
+      to top,
+      rgba(20, 11, 10, 0.8),
+      rgba(20, 11, 10, 0.4)
+    ),
+    url("../images/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  margin-top: -71.07px;
+}
+
+.hero h1,
+.hero p {
+  color: var(--cl-font-contrast-light);
+}
+
+/* New Arrivals */
+
+.carousel-item img {
+  max-width: 300px;
+}
+
+/* Footer */
+
+.logo-footer {
+  width: 80px;
+}
+
+/* Contact */
+
+.contact {
+  background: linear-gradient(
+      to top,
+      rgba(20, 11, 10, 0.8),
+      rgba(20, 11, 10, 0.4)
+    ),
+    url("../images/contact-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  margin-top: -71.07px;
+}
+
+.contact h1 {
+  color: var(--cl-white);
+}
