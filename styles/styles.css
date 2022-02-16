@@ -111,7 +111,7 @@ button {
       rgba(20, 11, 10, 0.8),
       rgba(20, 11, 10, 0.4)
     ),
-    url("./images/hero.jpg");
+    url("../images/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -144,7 +144,7 @@ button {
       rgba(20, 11, 10, 0.8),
       rgba(20, 11, 10, 0.4)
     ),
-    url("./images/contact-1.jpg");
+    url("../images/contact-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
